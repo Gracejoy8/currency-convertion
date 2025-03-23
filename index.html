@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassy Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> <!-- This should be moved to just before </body> -->
+</head>
+<body>
+
+    <div class="container">
+        <h2>Currency Converter </h2>
+        <h2>Enter values in USD</h2>
+
+        <div class="input-group">
+            <input type="number" id="amount" placeholder="Enter amount" />
+        </div>
+
+        <div class="dropdown">
+            <select id="currency">
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+                <option value="INR">INR - Indian Rupee</option>
+            </select>
+        </div>
+
+        <button id="convert">Convert</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script> <!-- This script file does not exist -->
+</body>
+</html>
